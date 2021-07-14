@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.3.1](https://www.github.com/googleapis/java-channel/compare/v2.3.0...v2.3.1) (2021-07-14)
+
+
+### Bug Fixes
+
+* owlbot post-processor should generate README ([#1154](https://www.github.com/googleapis/java-channel/issues/1154)) ([#132](https://www.github.com/googleapis/java-channel/issues/132)) ([ed6c093](https://www.github.com/googleapis/java-channel/commit/ed6c0930430af0b911566f99e0a389c086701c1f)), closes [#1146](https://www.github.com/googleapis/java-channel/issues/1146) [#1147](https://www.github.com/googleapis/java-channel/issues/1147)
+
 ## [2.3.0](https://www.github.com/googleapis/java-channel/compare/v2.2.1...v2.3.0) (2021-07-01)
 
 
