@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://www.github.com/googleapis/java-channel/compare/v2.3.0...v2.4.0) (2021-08-04)
+
+
+### Features
+
+* configure initial sp version ([#143](https://www.github.com/googleapis/java-channel/issues/143)) ([b12258a](https://www.github.com/googleapis/java-channel/commit/b12258ac771c0a31dc1b5bc55cd87e1193f710f2))
+
 ## [2.3.0](https://www.github.com/googleapis/java-channel/compare/v2.2.1...v2.3.0) (2021-07-01)
 
 
