@@ -116,7 +116,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method CheckCloudIdentityAccountsExist, expected %s or %s",
+                  "Unrecognized response type %s for method CheckCloudIdentityAccountsExist,"
+                      + " expected %s or %s",
                   response == null ? "null" : response.getClass().getName(),
                   CheckCloudIdentityAccountsExistResponse.class.getName(),
                   Exception.class.getName())));
@@ -221,7 +222,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method ProvisionCloudIdentity, expected %s or %s",
+                  "Unrecognized response type %s for method ProvisionCloudIdentity, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   Operation.class.getName(),
                   Exception.class.getName())));
@@ -264,7 +266,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method ListTransferableSkus, expected %s or %s",
+                  "Unrecognized response type %s for method ListTransferableSkus, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   ListTransferableSkusResponse.class.getName(),
                   Exception.class.getName())));
@@ -286,7 +289,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method ListTransferableOffers, expected %s or %s",
+                  "Unrecognized response type %s for method ListTransferableOffers, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   ListTransferableOffersResponse.class.getName(),
                   Exception.class.getName())));
@@ -370,7 +374,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method ChangeRenewalSettings, expected %s or %s",
+                  "Unrecognized response type %s for method ChangeRenewalSettings, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   Operation.class.getName(),
                   Exception.class.getName())));
@@ -495,7 +500,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method TransferEntitlements, expected %s or %s",
+                  "Unrecognized response type %s for method TransferEntitlements, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   Operation.class.getName(),
                   Exception.class.getName())));
@@ -516,7 +522,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method TransferEntitlementsToGoogle, expected %s or %s",
+                  "Unrecognized response type %s for method TransferEntitlementsToGoogle, expected"
+                      + " %s or %s",
                   response == null ? "null" : response.getClass().getName(),
                   Operation.class.getName(),
                   Exception.class.getName())));
@@ -538,7 +545,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method ListChannelPartnerLinks, expected %s or %s",
+                  "Unrecognized response type %s for method ListChannelPartnerLinks, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   ListChannelPartnerLinksResponse.class.getName(),
                   Exception.class.getName())));
@@ -559,7 +567,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method GetChannelPartnerLink, expected %s or %s",
+                  "Unrecognized response type %s for method GetChannelPartnerLink, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   ChannelPartnerLink.class.getName(),
                   Exception.class.getName())));
@@ -581,7 +590,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method CreateChannelPartnerLink, expected %s or %s",
+                  "Unrecognized response type %s for method CreateChannelPartnerLink, expected %s"
+                      + " or %s",
                   response == null ? "null" : response.getClass().getName(),
                   ChannelPartnerLink.class.getName(),
                   Exception.class.getName())));
@@ -603,7 +613,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method UpdateChannelPartnerLink, expected %s or %s",
+                  "Unrecognized response type %s for method UpdateChannelPartnerLink, expected %s"
+                      + " or %s",
                   response == null ? "null" : response.getClass().getName(),
                   ChannelPartnerLink.class.getName(),
                   Exception.class.getName())));
@@ -729,7 +740,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method ListPurchasableOffers, expected %s or %s",
+                  "Unrecognized response type %s for method ListPurchasableOffers, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   ListPurchasableOffersResponse.class.getName(),
                   Exception.class.getName())));
@@ -773,7 +785,8 @@ public class MockCloudChannelServiceImpl extends CloudChannelServiceImplBase {
       responseObserver.onError(
           new IllegalArgumentException(
               String.format(
-                  "Unrecognized response type %s for method UnregisterSubscriber, expected %s or %s",
+                  "Unrecognized response type %s for method UnregisterSubscriber, expected %s or"
+                      + " %s",
                   response == null ? "null" : response.getClass().getName(),
                   UnregisterSubscriberResponse.class.getName(),
                   Exception.class.getName())));
