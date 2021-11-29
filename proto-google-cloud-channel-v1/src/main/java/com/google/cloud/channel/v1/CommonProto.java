@@ -53,8 +53,7 @@ public final class CommonProto {
   static {
     java.lang.String[] descriptorData = {
       "\n"
-          + "$google/cloud/channel/v1/common.proto\022\027"
-          + "google.cloud.channel.v1\032\037google/api/field_behavior.proto\032\031google/protobuf/any.proto\032\034google/api/annotations.proto\"\260\003\n"
+          + "$google/cloud/channel/v1/common.proto\022\027google.cloud.channel.v1\032\037google/api/field_behavior.proto\032\031google/protobuf/any.proto\032\034google/api/annotations.proto\"\260\003\n"
           + "\007EduData\022F\n"
           + "\016institute_type\030\001"
           + " \001(\0162..google.cloud.channel.v1.EduData.InstituteType\022F\n"
