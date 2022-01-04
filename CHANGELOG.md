@@ -1,5 +1,91 @@
 # Changelog
 
+## [1.0.0](https://github.com/googleapis/java-channel/compare/java-channel-v3.3.0...java-channel-v1.0.0) (2022-01-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* release gapic-generator-java v2.0.0 (#148)
+* 1.1.0
+* TransferableSkus field deprecation. Okay to make this change since no clients are using the libraries that were released just last week. The fields were supposed to be deprecated but missed. We have communicated to clients about this change.
+* 1.0.0
+
+### Features
+
+* add `gcf-owl-bot[bot]` to `ignoreAuthors` ([#99](https://github.com/googleapis/java-channel/issues/99)) ([b93354b](https://github.com/googleapis/java-channel/commit/b93354b7980b7507f81ea14f3ed20dd0f75cd58b))
+* Add a new enum value LICENSE_CAP_CHANGED to enum EntitlementEvent.Type ([24e1b7f](https://github.com/googleapis/java-channel/commit/24e1b7f408c0b752e0ad0fd0bad475e45ac9aa75))
+* Add a new enum value LICENSE_CAP_CHANGED to enum EntitlementEvent.Type ([a7cc927](https://github.com/googleapis/java-channel/commit/a7cc927e7b18a16f6bd3e35044dedbe4922fffa7))
+* Add a new LookupOffer RPC and LookupOfferRequest proto ([a7cc927](https://github.com/googleapis/java-channel/commit/a7cc927e7b18a16f6bd3e35044dedbe4922fffa7))
+* Add a new LookupOffer RPC and LookupOfferRequest proto. ([24e1b7f](https://github.com/googleapis/java-channel/commit/24e1b7f408c0b752e0ad0fd0bad475e45ac9aa75))
+* Add additional_bindings to HTTP annotations of Customer related APIs (list/create/get/update/delete) ([a7cc927](https://github.com/googleapis/java-channel/commit/a7cc927e7b18a16f6bd3e35044dedbe4922fffa7))
+* Add additional_bindings to HTTP annotations of Customer related APIs (list/create/get/update/delete). ([24e1b7f](https://github.com/googleapis/java-channel/commit/24e1b7f408c0b752e0ad0fd0bad475e45ac9aa75))
+* add API ImportCustomer for Cloud Channel API docs: update comments for a few fields ([#175](https://github.com/googleapis/java-channel/issues/175)) ([825dd14](https://github.com/googleapis/java-channel/commit/825dd14d7ae7b585a75226a486638c155d32805b))
+* add resource type to ChannelPartnerLink ([#210](https://github.com/googleapis/java-channel/issues/210)) ([53df617](https://github.com/googleapis/java-channel/commit/53df61797b4dc40856386cad01c48bc862490f02))
+* Add/Update API definitions for Cloud Channel API ([#112](https://github.com/googleapis/java-channel/issues/112)) ([a7cc927](https://github.com/googleapis/java-channel/commit/a7cc927e7b18a16f6bd3e35044dedbe4922fffa7))
+* Add/Update API definitions for Cloud Channel API, including ([24e1b7f](https://github.com/googleapis/java-channel/commit/24e1b7f408c0b752e0ad0fd0bad475e45ac9aa75))
+* Added legacy_sku field to TransferableSku ([3e0defe](https://github.com/googleapis/java-channel/commit/3e0defedb743a243e78fc307ae325ab939056dde))
+* Adding customer level pubsub events for primary domain verification and primary domain change ([3e0defe](https://github.com/googleapis/java-channel/commit/3e0defedb743a243e78fc307ae325ab939056dde))
+* addition of billing_account field on Plan ([#56](https://github.com/googleapis/java-channel/issues/56)) ([fdc2ad6](https://github.com/googleapis/java-channel/commit/fdc2ad62d253f36dcd55c0f3bb69138f4dea29cd))
+* deprecate TransferableSkus field ([#44](https://github.com/googleapis/java-channel/issues/44)) ([3acf948](https://github.com/googleapis/java-channel/commit/3acf94818273c3676b0df6cae063ab977b8f0fef))
+* Enabled support for boolean as an allowed parameter value ([3e0defe](https://github.com/googleapis/java-channel/commit/3e0defedb743a243e78fc307ae325ab939056dde))
+* **generator:** update protoc to v3.15.3 ([#54](https://github.com/googleapis/java-channel/issues/54)) ([bcece47](https://github.com/googleapis/java-channel/commit/bcece4727fd0f832a29b0f293b1f983cf0af0d8f))
+* initial code generation ([5d89a95](https://github.com/googleapis/java-channel/commit/5d89a952119d550f5f31d76ac6caee9c915f6318))
+* promote to 1.0.0 ([#13](https://github.com/googleapis/java-channel/issues/13)) ([afe5c34](https://github.com/googleapis/java-channel/commit/afe5c34c439964b099667c7d77487eb05b6eab1b))
+* release gapic-generator-java v2.0.0 ([#148](https://github.com/googleapis/java-channel/issues/148)) ([59b735f](https://github.com/googleapis/java-channel/commit/59b735feabf00de33b738f41c0fe5948440f615c))
+* Remove use of deprecated gradle command in java README ([#1196](https://github.com/googleapis/java-channel/issues/1196)) ([#168](https://github.com/googleapis/java-channel/issues/168)) ([d0b3dea](https://github.com/googleapis/java-channel/commit/d0b3dea75d3c748db7598e8e82b83653dc64f8b1))
+* Update descriptions of APIs ([a7cc927](https://github.com/googleapis/java-channel/commit/a7cc927e7b18a16f6bd3e35044dedbe4922fffa7))
+* Update descriptions of APIs. ([24e1b7f](https://github.com/googleapis/java-channel/commit/24e1b7f408c0b752e0ad0fd0bad475e45ac9aa75))
+
+
+### Bug Fixes
+
+* Add `shopt -s nullglob` to dependencies script ([#1130](https://github.com/googleapis/java-channel/issues/1130)) ([#123](https://github.com/googleapis/java-channel/issues/123)) ([3a28425](https://github.com/googleapis/java-channel/commit/3a284251845d50f5f03209fdab77d145df9f104a))
+* **java:** add -ntp flag to native image testing command ([#1299](https://github.com/googleapis/java-channel/issues/1299)) ([#228](https://github.com/googleapis/java-channel/issues/228)) ([5ece8d1](https://github.com/googleapis/java-channel/commit/5ece8d1060918d1c455c0a9ade54b758f2cb1744))
+* **java:** java 17 dependency arguments ([#1266](https://github.com/googleapis/java-channel/issues/1266)) ([#207](https://github.com/googleapis/java-channel/issues/207)) ([a2f1c39](https://github.com/googleapis/java-channel/commit/a2f1c39275d4ee05ec458e8f07c6a705382f2b43))
+* **java:** run Maven in plain console-friendly mode ([#1301](https://github.com/googleapis/java-channel/issues/1301)) ([#232](https://github.com/googleapis/java-channel/issues/232)) ([30a38ad](https://github.com/googleapis/java-channel/commit/30a38ad4a5cf1242e7ba542325692ac9c4937ec3))
+* owlbot post-processor should generate README ([#1154](https://github.com/googleapis/java-channel/issues/1154)) ([#132](https://github.com/googleapis/java-channel/issues/132)) ([ed6c093](https://github.com/googleapis/java-channel/commit/ed6c0930430af0b911566f99e0a389c086701c1f)), closes [#1146](https://github.com/googleapis/java-channel/issues/1146) [#1147](https://github.com/googleapis/java-channel/issues/1147)
+* release scripts from issuing overlapping phases ([#74](https://github.com/googleapis/java-channel/issues/74)) ([72667e2](https://github.com/googleapis/java-channel/commit/72667e228ddfa96f9e9965b7b63cf2258a3627e3))
+* resolve dependency issue ([#9](https://github.com/googleapis/java-channel/issues/9)) ([971cf4e](https://github.com/googleapis/java-channel/commit/971cf4e6af1315b5035ffbd8b3c221d894336d1e))
+* typo ([#72](https://github.com/googleapis/java-channel/issues/72)) ([dc27217](https://github.com/googleapis/java-channel/commit/dc27217a2e32d20c83784dc69bff24598dae25a3))
+
+
+### Miscellaneous Chores
+
+* fix release version ([#46](https://github.com/googleapis/java-channel/issues/46)) ([dbfdf4f](https://github.com/googleapis/java-channel/commit/dbfdf4f34be4c6486301ead16c5114eecb191ccf))
+* release 1.0.0 ([#16](https://github.com/googleapis/java-channel/issues/16)) ([c0d1acf](https://github.com/googleapis/java-channel/commit/c0d1acf54b5581ea2a9c0152ae1a76887863ddce))
+
+
+### Documentation
+
+* clarification that valid address lines are required for all customers ([fdc2ad6](https://github.com/googleapis/java-channel/commit/fdc2ad62d253f36dcd55c0f3bb69138f4dea29cd))
+* clarified usage of entitlement parameters ([#211](https://github.com/googleapis/java-channel/issues/211)) ([c6a9bdc](https://github.com/googleapis/java-channel/commit/c6a9bdca76cbd485c5a5e58394f7dbdc38dfcda7))
+* Small clarification ([#220](https://github.com/googleapis/java-channel/issues/220)) ([7a420ec](https://github.com/googleapis/java-channel/commit/7a420ec345e520f676dff2c0e5ad052d804c3ed5))
+* Update documentation comments to match tone and style with the rest of Cloud documentation ([#69](https://github.com/googleapis/java-channel/issues/69)) ([3e0defe](https://github.com/googleapis/java-channel/commit/3e0defedb743a243e78fc307ae325ab939056dde))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.18.0 ([#5](https://github.com/googleapis/java-channel/issues/5)) ([29d193a](https://github.com/googleapis/java-channel/commit/29d193a573f51ad120358d33b65f223a8a439831))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.19.0 ([#39](https://github.com/googleapis/java-channel/issues/39)) ([b84dabc](https://github.com/googleapis/java-channel/commit/b84dabc81ec852f540d1023bc5ed0bcf7e6ba06b))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.20.0 ([#50](https://github.com/googleapis/java-channel/issues/50)) ([4e08077](https://github.com/googleapis/java-channel/commit/4e08077673eae901d28c21237efd4b9c97f66184))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.20.1 ([#61](https://github.com/googleapis/java-channel/issues/61)) ([b532007](https://github.com/googleapis/java-channel/commit/b532007fd7afbf0b905e3432a02401b8feaef4a5))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.0 ([#70](https://github.com/googleapis/java-channel/issues/70)) ([93fde13](https://github.com/googleapis/java-channel/commit/93fde137961babee0b099e2e8d8ebcb1c2b1d5c9))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.1 ([#75](https://github.com/googleapis/java-channel/issues/75)) ([5686118](https://github.com/googleapis/java-channel/commit/5686118e7c2b3477d5d1081cfb512b655412418a))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1 ([#79](https://github.com/googleapis/java-channel/issues/79)) ([84f0ac3](https://github.com/googleapis/java-channel/commit/84f0ac3e8a5f81f1c73beb816f04b64142bc59b7))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.1.0 ([#91](https://github.com/googleapis/java-channel/issues/91)) ([60ce7f7](https://github.com/googleapis/java-channel/commit/60ce7f785ac999dc9fd70659020a21e54784ff9b))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.2.0 ([#98](https://github.com/googleapis/java-channel/issues/98)) ([be8290a](https://github.com/googleapis/java-channel/commit/be8290ab7cfe01e4b41744ece1ff9bb1017e39cd))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.3.0 ([#110](https://github.com/googleapis/java-channel/issues/110)) ([dfec39a](https://github.com/googleapis/java-channel/commit/dfec39a85ccc06f0898bebb5fd0a712116ddf624))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.4.0 ([#124](https://github.com/googleapis/java-channel/issues/124)) ([06e04a5](https://github.com/googleapis/java-channel/commit/06e04a532b9b39f813ef6c8260f009ce172c91d1))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2 ([#147](https://github.com/googleapis/java-channel/issues/147)) ([e6b0699](https://github.com/googleapis/java-channel/commit/e6b06992f778accc69456890c3688ed77ab2d467))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.0.1 ([#153](https://github.com/googleapis/java-channel/issues/153)) ([854ba50](https://github.com/googleapis/java-channel/commit/854ba508ff506a2fe575174c56ef171c9a4af513))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.1.0 ([#161](https://github.com/googleapis/java-channel/issues/161)) ([8fa29e3](https://github.com/googleapis/java-channel/commit/8fa29e3f5c9b3eb178e5bd7072f85e10c59e7437))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.2.0 ([#171](https://github.com/googleapis/java-channel/issues/171)) ([6dcb724](https://github.com/googleapis/java-channel/commit/6dcb72469f8f9531d91b16b71654717993e8e318))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.2.1 ([#182](https://github.com/googleapis/java-channel/issues/182)) ([bbe62f2](https://github.com/googleapis/java-channel/commit/bbe62f2bcbda9a06daff8ad4e50513df7dbf9639))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.3.0 ([#189](https://github.com/googleapis/java-channel/issues/189)) ([0909ced](https://github.com/googleapis/java-channel/commit/0909ced9342e88a2f5b080541c44f05141dcfba7))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.4.0 ([#202](https://github.com/googleapis/java-channel/issues/202)) ([4a881b4](https://github.com/googleapis/java-channel/commit/4a881b47b6edcb9c40959a8695e83616795e97bc))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.5.0 ([#219](https://github.com/googleapis/java-channel/issues/219)) ([3d7dc32](https://github.com/googleapis/java-channel/commit/3d7dc3222b941861e07cff80e1445260e7c763ea))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v2.5.1 ([#225](https://github.com/googleapis/java-channel/issues/225)) ([8e15822](https://github.com/googleapis/java-channel/commit/8e15822a33244a9d83ef0ac96e30a8c82e46833a))
+
 ## [3.3.0](https://www.github.com/googleapis/java-channel/compare/v3.2.2...v3.3.0) (2021-12-03)
 
 
