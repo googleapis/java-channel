@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.6](https://github.com/googleapis/java-channel/compare/v3.7.5...v3.7.6) (2022-10-04)
+
+
+### Bug Fixes
+
+* update protobuf to v3.21.7 ([556b83d](https://github.com/googleapis/java-channel/commit/556b83d24d00769c18247fa0bacf6ae1c8275a97))
+
 ## [3.7.5](https://github.com/googleapis/java-channel/compare/v3.7.4...v3.7.5) (2022-10-03)
 
 
