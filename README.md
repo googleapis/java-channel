@@ -9,6 +9,13 @@ Java idiomatic client for [Channel Services][product-docs].
 - [Client Library Documentation][javadocs]
 
 
+:bus: In October 2022, this library has moved to
+[google-cloud-java/java-channel](
+https://github.com/googleapis/google-cloud-java/tree/main/java-channel).
+This repository will be archived in the future.
+Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
+The Maven artifact coordinates (`com.google.cloud:google-cloud-channel`) remain the same.
+
 ## Quickstart
 
 
@@ -19,20 +26,20 @@ If you are using Maven, add this to your pom.xml file:
 <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-channel</artifactId>
-  <version>3.7.6</version>
+  <version>3.9.0</version>
 </dependency>
 ```
 
 If you are using Gradle without BOM, add this to your dependencies:
 
 ```Groovy
-implementation 'com.google.cloud:google-cloud-channel:3.7.6'
+implementation 'com.google.cloud:google-cloud-channel:3.9.0'
 ```
 
 If you are using SBT, add this to your dependencies:
 
 ```Scala
-libraryDependencies += "com.google.cloud" % "google-cloud-channel" % "3.7.6"
+libraryDependencies += "com.google.cloud" % "google-cloud-channel" % "3.9.0"
 ```
 
 ## Authentication
